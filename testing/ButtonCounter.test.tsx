@@ -5,8 +5,6 @@ import ButtonCounter from './ButtonCounter'
 describe('Button Counter', () => {
   it('renders the Button Counter component', () => {
     render(<ButtonCounter label="Add 1" />)
-    
-    //screen.debug(); // prints out the jsx in the App component unto the command line
   })
 
   it('show the label properly', () => {
