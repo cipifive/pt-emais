@@ -12,7 +12,7 @@ export const ExpensiveComponent: FC<ExpensiveComponentProps> = ({ data }):JSX.El
     return (
         <div className="expensive-component__wrapper">
             {
-                processedData.map((item: Item, index: number) => (<div key={index}>{item.name}</div>))
+                processedData.map((item: Item) => (<div key={item.id}>{item.name}</div>))
             }
         </div>
     );
