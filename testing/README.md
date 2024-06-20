@@ -10,7 +10,7 @@ Se ha utilizado para el testing 'vitest' + 'react-testing-library'. Tras una con
 
 - Comprobación de que el contador se incrementa correctamente al pulsar el botón
 
-- Comprobación de que el contador se incrementa correctamente pulsando el botón n veces
+- Comprobación de que el contador se incrementa correctamente pulsando el botón 'n' veces
 
 
 Con este set de tests, se comprueba tanto la visualización del componente, como el correcto funcionamiento del mismo.
