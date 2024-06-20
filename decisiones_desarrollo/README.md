@@ -6,7 +6,7 @@ Atendiendo a los requerimientos del proyecto:
 
 - Para la autenticación, utilizaría tanto 'react-cookie' como 'react-jwt', lo que me permitiría securizar el acceso a la aplicación web a través del cifrado de la información del usuario en un token, y almacenarlo en una cookie en el navegador, donde se podrían configurar parámetros de la misma (duración, dominio...). Son librerías muy sencillas de utilizar, que además en consonancia con Zustand permitiría gestionar esta autenticación y manejo de tokens en el ámbito global del aplicativo.
 
-- Por último, para gestionar la contínua comunicación con una API REST, utilizaría 'axios', lo que me facilitaría el desarrollo de servicios y la gestión de promesas con cada llamada a un ednpoint. Además, se integraría a la perfección con 'react-jwt' y 'react-cookie', ya que 'axios' permite realizar un archivo de configuración donde se puede gestionar el envío de este token, a través de una cookie en los headers.
+- Por último, para gestionar la contínua comunicación con una API REST, utilizaría 'axios', lo que me facilitaría el desarrollo de servicios y la gestión de promesas con cada llamada a un endpoint. Además, se integraría a la perfección con 'react-jwt' y 'react-cookie', ya que 'axios' permite realizar un archivo de configuración donde se puede gestionar el envío de este token, a través de una cookie en los headers.
 
 En definitiva, la integración y el uso de estas tres librerías permitiría tener total control de la autenticación del usuario y de su información durante todo el proyecto.
 
